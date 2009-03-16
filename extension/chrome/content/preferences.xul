@@ -1,0 +1,31 @@
+<?xml version="1.0"?>
+<?xml-stylesheet href="chrome://global/skin/" type="text/css"?>
+ 
+<prefwindow 
+     title="Bruce Willis Preferences"
+     xmlns="http://www.mozilla.org/keymaster/gatekeeper/there.is.only.xul">
+ 
+	<prefpane label="Bruce Willis Preferences">
+		<preferences>
+			<preference id="brucewillis-autorun" name="extensions.brucewillis.autorun" type="bool"/>
+		</preferences>
+		
+		<groupbox>
+			<caption label="Settings"/>
+			<grid>
+				<columns>
+					<column flex="4"/>
+					<column flex="1"/>
+				</columns>
+				<rows>
+					<row>
+						<label control="autorun" value="Autorun"/>
+						<checkbox id="autorun" preference="brucewillis-autorun"/>
+					</row>
+				</rows>
+			</grid>
+		</groupbox>	
+		
+	</prefpane>
+ 
+</prefwindow>
