@@ -1,1 +1,0 @@
-pref("extensions.brucewillis.autorun", false);
