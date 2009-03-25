@@ -1,0 +1,10 @@
+/* Toolbar button image */
+#brucewillis-toolbar-button {
+	list-style-image: url(chrome://brucewillis/skin/toolbar-button.png);
+}
+
+/* Status bar icon */
+#brucewillis-status-bar-icon {
+	width: 83px;
+	margin: 0 5px;
+}
